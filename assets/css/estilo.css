@@ -1,0 +1,123 @@
+
+/*p{ font-family: verdana;/*tipo de letras*/ 
+    /*text-align: justify;/*alineación del texto*/ 
+    /*color: red; /*color de la fuente*/
+    /*font-size:24 px;/*tamaño de la fuente*/
+    /*font-style: italic; /*estilo */
+    /*font-weight: bold; /* negrito o fuerte*/
+    /*}
+    body { 
+    background-color: lightblue; /*color de fondo del body*/ 
+    /*}
+    /* color y alineación de la etiqueta h1*/ 
+    /*h1 { color: white; 
+    font-weight: bold;/* negrito o fuerte*/
+    /*text-align: center;/*alineación*/
+    /*}
+
+    /*div.divición{
+        background-color: aqua;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 8px 8px 5px #444;
+        padding: 8px 12px;
+        border: 1px solid #333;
+    }
+
+    p.mi_parrafo{
+        text-align:center;
+        font-weight:bold, cursive;
+    }*/
+
+    
+    *{ 
+        margin:0; 
+        padding:0; 
+    } 
+
+    body{
+        margin:0px;
+    }
+
+    header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:aqua;
+        height:70px;
+        border-bottom: 2px solid black;
+    }
+
+    .logo{
+        display:flex;
+        align-items: center;
+    }
+
+    .logo img{
+        width:70px;
+        height:70px;
+        margin-right: 5px;
+    }
+
+    .menu-content{
+        padding:0;
+        margin:0px;
+    }
+
+    .menu{
+        height:70px;
+        background-color: rgb(4, 1, 7); 
+        margin: 0px;
+        border: 2px solid black;
+        padding: 0px;
+        text-align:center;
+    }
+
+    
+
+    li{
+        position:relative;
+        list-style-type:none;
+        display:inline-block;
+    }
+
+    li a{
+        justify-content:center;
+        text-decoration:none;
+        color:white;
+        padding:25px 10px;
+        display:flex;
+        margin:0;
+    }
+
+    li a:hover{
+        background: blanchedalmond;
+        color:rgb(4, 1, 7);
+    }
+
+
+    .titulo{
+        background-color: #92a8d1; 
+        margin: 20px; 
+        text-align:center;
+    }
+
+    
+
+    .parrafo{ 
+        background-color: rgb(144, 238, 194); 
+        padding-top:50px; 
+        padding-left: 10px; 
+        padding-bottom: 60px; 
+        padding-right: 300px; 
+        border: 5px solid green;
+        border-color: black;
+        font-size:20px;
+        width: 80%;
+    } 
+    
+    footer{
+        background-color: GoldenRod; 
+        padding: 10px 20px 30px 40px; 
+        margin: auto 0px 0px; 
+        border:5px solid black;
+    } 
