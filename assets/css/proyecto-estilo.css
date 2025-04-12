@@ -75,6 +75,24 @@ footer{
     border-top:5px white solid;
 }
 
+.form-label{
+    color:white;
+}
+
+.form-text{
+    color:white;
+}
+
+.list-group-item a{
+    color:white;
+    text-decoration: none;
+}
+
+.list-group-item a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 .list-group-item{
     background-color:black;
     color:white;
@@ -83,7 +101,6 @@ footer{
 .list-group-item img{
     width:25px;
     height:25px;
-    
 }
 
 .list-group-item a i{
