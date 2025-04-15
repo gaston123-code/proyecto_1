@@ -15,6 +15,12 @@ class Home extends BaseController
         $data['titulo']= "quienes somos";
         return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\quienes-somos.php').view('\carpeta\plantilla\footter.php');
     }
+
+    public function contacto()
+    {
+        $data['titulo']= "contacto";
+        return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\contacto.php').view('\carpeta\plantilla\footter.php');
+    }
 }
 
 

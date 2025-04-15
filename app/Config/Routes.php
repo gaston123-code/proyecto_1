@@ -9,3 +9,5 @@ $routes->get('/', 'Home::index');
 
 
 $routes->get('nosotros', 'Home::somos');
+
+$routes->get('contacto', 'Home::contacto');

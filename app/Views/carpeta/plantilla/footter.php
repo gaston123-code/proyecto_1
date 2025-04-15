@@ -1,6 +1,6 @@
-<footer class="container-fluid">
-      <div class="row">
-        <div class="col">
+<footer class="container-fluid text-center navbar-expand-md align-items-center">
+      <div class="row align-items-center">
+        <div class="col-md-3">
           <form>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Direccion de email</label>
@@ -10,7 +10,13 @@
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
         </div>
-        <div class="col tex-align-end">
+
+        <button class="navbar-toggler bg-danger ml-5 p-3 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#footer" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <label for="exampleInputEmail1" class="form-label ">Datos</label>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="col-md-3 tex-align-end collapse navbar-collapse" id="footer">
         <ul class="list-group lista">
             <li class="list-group-item border-0"><a href="#">Talles</a></li>
             <li class="list-group-item  border-0"><a href="#">Promociones de compras</a></li>
@@ -18,7 +24,7 @@
             <li class="list-group-item border-0"><a href="#">Defensa del consumidor</a></li>
           </ul>
         </div>
-        <div class="col tex-align-center">
+        <div class="col-md-3 tex-align-center collapse navbar-collapse" id="footer">
           <ul class="list-group lista">
             <li class="list-group-item border-0"><a href="#">Preguntas frecuentas</a></li>
             <li class="list-group-item  border-0"><a href="#">Politicas de privacidad</a></li>
@@ -26,14 +32,14 @@
             <li class="list-group-item border-0"><a href="#">Politicas de debolución</a></li>
           </ul>
         </div>
-        <div class="col tex-align-end">
+        <div class="col-md-3 tex-align-end redes navbar-collapse">
             <ul class="list-group  list-group-horizontal justify-content-center" >
                 <li class="list-group-item  text-decoration-none border-0" ><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
                 <li class="list-group-item text-decoration-none border-0" ><a href="#"><i class="fa-brands fa-square-facebook fa-2x"></i></a></li>
-                <li class="list-group-item text-decoration-none border-0" ><a><i class="fa-brands fa-x-twitter fa-2x"></i></a></li>
-                <li class="list-group-item  text-decoration-none border-0" ><a><i class="fa-brands fa-youtube fa-2x"></i></a></li>
-                <li class="list-group-item text-decoration-none border-0" ><a><i class="fa-brands fa-tiktok fa-2x"></i></a></li>
-                <li class="list-group-item text-decoration-none border-0" ><a><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+                <li class="list-group-item text-decoration-none border-0" ><a href="#"><i class="fa-brands fa-x-twitter fa-2x"></i></a></li>
+                <li class="list-group-item  text-decoration-none border-0" ><a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
+                <li class="list-group-item text-decoration-none border-0" ><a href="#"><i class="fa-brands fa-tiktok fa-2x"></i></a></li>
+                <li class="list-group-item text-decoration-none border-0" ><a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
             </ul>
 
         </div>

@@ -9,13 +9,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="<?php echo base_url('assets/img/a.jpg');?>" class="d-block w-100" alt="...">
+                    <img src="<?php echo base_url('assets/img/04.webp');?>" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                <img src="<?php echo base_url('assets/img/b.jpg');?>" class="d-block w-100" alt="...">
+                <img src="<?php echo base_url('assets/img/05.webp');?>" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="<?php echo base_url('assets/img/c.jpg');?>" class="d-block w-100" alt="...">
+                    <img src="<?php echo base_url('assets/img/03.webp');?>" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -32,158 +32,159 @@
 
 
   
-      <div class="container-fluid">
+      <div class="container-fluid ultimo-lanzamiento-titulo">
         <div class="row">
-        <h1 class="text-center titulo">Nombre de la empresa</h1>
-        <h3 class="text-center bg-primary ">Ultimos lanzamietos</h3>
+        <h3 class="text-center ">Ultimos lanzamietos</h3>
         </div>
       </div>
   
 
-    <section class="container-fluid">
+    <section class="container-fluid mt-5">
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+  <div class="col mt-0">
+    <div class="card h-70% w-100%">
+      <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/01.webp');?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Camiseta De Fútbol adidas Tercera Boca Juniors 25 Authentic</h5>
+          <h5 class="card-title">$ 199.999,00</h5>
+          <p class="card-text">Precio sin impuestos nacionales: $ 165.2886 cuotas sin interés de $ 33.333,16</p>
+        </div>
+      </a>
+      
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col mt-0">
+    <div class="card h-70 w-100">
+      <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/3.jpg');?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Short adidas Tercera Boca Juniors Authentic</h5>
+          <h5 class="card-title">$ 99.999,00</h5>
+          <p class="card-text">Precio sin impuestos nacionales: $ 82.6446 cuotas sin interés de $ 16.666,50</p>
+        </div>
+      </a>
+      
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mt-0">
+    <div class="card h-70 w-100">
+      <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/2.webp');?>" class="card-img-top" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Zapatillas adidas Adizero Adios Pro 4</h5>
+         <h5 class="card-title">$ 359.999,00</h5>
+         <p class="card-text">Precio sin impuestos nacionales: $ 297.5206 cuotas sin interés de $ 59.999,83.</p>
+        </div>
+      </a>
+      
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mt-0">
+    <div class="card h-70 w-100">
+      <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/4.webp');?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Zapatillas Puma Deviate Nitro 3 Wns</h5>
+          <h5 class="card-title">$ 229.999,00</h5>
+          <p class="card-text">Precio sin impuestos nacionales: $ 190.0826 cuotas sin interés de $ 38.333,16</p>
+        </div>
+      </a>
+      
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mt-0">
+    <div class="card h-70 w-100">
+      <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/5.webp');?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Top Puma Pwrbreathe Run</h5>
+          <h5 class="card-title">$ 104.999,00</h5>
+          <p class="card-text">Precio sin impuestos nacionales: $ 86.7766 cuotas sin interés de $ 17.499,83</p>
+        </div>
+      </a>
+      
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+</div>
+    </section>
+
+<div class="container-fluid mt-5">
+        
+
+
+  <section class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col container-h d-flex justify-content-center">
+        <div class="image-container justify-content-center mb-5">
+          <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/h.jpg');?>" class="card-img-top" alt="...">
+          <h3>Sección Hombre</h3></a>
+        </div>
+      </div>
+      <div class="col container-m d-flex justify-content-center">
+        <div class="image-container justify-content-center mb-5">
+          <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/m.jpg');?>" class="card-img-top" alt="...">
+          <h3>Sección Mujer</h3></a>
+        </div>
+      </div>
+    </div>
+    </section>
+</div>
+    
+
+
+  
+
+<section class="container-fluid">
     <div class="row row-cols-1 row-cols-md-3 g-3 my-5">
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP.jpg');?>" class="card-img-top" alt="...">
+  <div class="col container-c">
+    <div class="card h-100 image-container justify-content-center mb-5">
+      <img src="<?php echo base_url('assets/img/3.webp');?>" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
+        <h5 class="card-title text-center">Camperas</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP (1).jpg');?>" class="card-img-top" alt="...">
+  <div class="col container-z">
+    <div class="card h-100 image-container justify-content-center mb-5">
+      <img src="<?php echo base_url('assets/img/6.webp');?>" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
+        <h5 class="card-title text-center">Zapatillas</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP (2).jpg');?>" class="card-img-top" alt="...">
+  <div class="col container-p">
+    <div class="card h-100 image-container justify-content-center mb-5">
+      <img src="<?php echo base_url('assets/img/7.webp');?>" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
+        <h5 class="card-title text-center">Pantalones</h5>
       </div>
     </div>
   </div>
 </div>
     </section>
 
-<div class="container-fluid">
-        <div class="row">
-        <h3 class="text-center bg-primary ">Ofertas de la semana</h3>
-        </div>
-      </div>
-  
+  <section class="container-presentation">
+    <h1 class="text-center">
+    [Nombre de la tienda] - Tu espacio para la ropa deportiva
+    </h1>
+    <p class="text-center mx-5 px-5 mb-5">[Nombre de la tienda] - Ropa deportiva para tu estilo de vida activo
+Descubre ropa y accesorios deportivos diseñados para combinar comodidad, funcionalidad y estilo. Ofrecemos productos de alta calidad, envíos rápidos y devoluciones fáciles. Únete a nuestra comunidad y equipa tu pasión por el deporte.
 
-    <section class="container-fluid">
-    <div class="row row-cols-1 row-cols-md-3 g-3 my-5">
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP.jpg');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP (1).jpg');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP (2).jpg');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-</div>
-    </section>
-
-<div class="container-fluid compra-por-marca">
-        <div class="row">
-          <h3 class="text-center bg-primary ">Compra por marca</h3>
-        <div class="col">
-          <ul class="list-group  list-group-horizontal justify-content-center" >
-            <li class="list-group-item  text-decoration-none border-0" ><a href="..." >adidas</a></li>
-            <li class="list-group-item text-decoration-none border-0" ><a href="..." >skechers</a>
-            <li class="list-group-item text-decoration-none border-0" ><a href="..." >Nike</a>
-            <li class="list-group-item  text-decoration-none border-0" ><a href="..." >Puma</a>
-            <li class="list-group-item text-decoration-none border-0" ><a href="..." >Topper</a>
-          </ul>
-
-        </div>
-      </div>
-        </div>
-      </div>
-  
-
-    <section class="container-fluid">
-    <div class="row row-cols-1 row-cols-md-3 g-3 my-5">
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP.jpg');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP (1).jpg');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="<?php echo base_url('assets/img/OIP (2).jpg');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-</div>
-    </section>
+</p>
+  </section>

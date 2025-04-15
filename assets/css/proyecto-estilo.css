@@ -44,9 +44,61 @@ body{
     color:black;
 }
 
-.titulo{
-    background-color:rgb(33, 238, 105);
-    text-decoration: underline;
+.ultimo-lanzamiento-titulo{
+    margin-top:0px;
+    margin-bottom: 0px;
+    background-color:black;
+}
+
+.ultimo-lanzamiento-titulo h3{
+    color:white;
+}
+
+.card{
+    background-color:black;
+}
+
+.card .card-body .card-title{
+    color:white;
+}
+
+.card .card-body .card-text{
+    color:white;
+}
+
+.container-h .image-container{
+    width:490px;
+    background-color:black;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+}
+
+.container-h .image-container img{
+    width:470px;
+
+}
+
+.container-h .image-container h3{
+    color:white;
+
+}
+
+.container-m .image-container{
+    width:490px;
+    background-color:black;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+}
+
+.container-m .image-container h3{
+    color:white;
+
+}
+
+.container-m .image-container img{
+    width:470px;
 }
 
 .compra-por-marca div .list-group{
@@ -69,6 +121,42 @@ body{
     text-decoration: underline;
 }
 
+.container-p .image-container{
+    width:490px;
+    background-color:black;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+}
+
+.container-p .image-container .card-body{
+    height:5px;
+}
+
+.container-z .image-container{
+    width:490px;
+    background-color:black;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+}
+
+.container-z .image-container .card-body{
+    height: 5px;;
+}
+
+.container-c .image-container{
+    width:490px;
+    background-color:black;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+}
+
+.container-c .image-container .card-body{
+    height:5px;
+}
+
 footer{
     height:200px;
     background-color:black;
@@ -81,6 +169,11 @@ footer{
 
 .form-text{
     color:white;
+}
+
+.redes{
+    background-color: black;
+    padding: 0;
 }
 
 .list-group-item a{

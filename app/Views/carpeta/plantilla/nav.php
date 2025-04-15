@@ -17,7 +17,7 @@
               <a class="nav-link" href="#">Comercialización</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Informacion de contacto</a>
+              <a class="nav-link" href="<?php echo base_url('contacto');?>">Informacion de contacto</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Terminos y usos</a>
