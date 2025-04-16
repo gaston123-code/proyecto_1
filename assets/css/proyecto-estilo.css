@@ -9,6 +9,8 @@ body{
     background-color: white;
 }
 
+/*barra de navegación*/
+
 .barra{
     margin:0;
     padding:0;
@@ -43,6 +45,8 @@ body{
 .barra .navbar .container-fluid .collapse .navbar-nav .nav-item a:hover{
     color:black;
 }
+
+/*inicio*/
 
 .ultimo-lanzamiento-titulo{
     margin-top:0px;
@@ -157,6 +161,8 @@ body{
     height:5px;
 }
 
+/*footer*/
+
 footer{
     height:200px;
     background-color:black;
@@ -174,6 +180,11 @@ footer{
 .redes{
     background-color: black;
     padding: 0;
+    display:flex;
+}
+
+.redes li{
+    display:flex;
 }
 
 .list-group-item a{
@@ -199,4 +210,32 @@ footer{
 .list-group-item a i{
     color:white;
     
+}
+
+/*contacto*/
+
+.form{
+    background-color:black;
+    color:white;
+}
+
+.form h3{
+    color:white;
+}
+
+.links{
+    background-color: black;
+    color:white;
+}
+
+.botón{
+    background:black;
+    border:5px solid white;
+    width:50%;
+    height:70px;
+    margin-left: 25%;
+}
+
+.botón:hover{
+    background:darkgray;
 }
