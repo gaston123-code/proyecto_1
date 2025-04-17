@@ -1,29 +1,36 @@
-<section class="container-fluid barra">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-danger fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="<?php echo base_url();?>">Principal</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('nosotros');?>">Quienes somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comercialización</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('contacto');?>">Informacion de contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Terminos y usos</a>
-            </li>
-          </ul>
-        </div>
+
+
+
+  <nav class="navbar sticky-top bg-dark border-bottom border-body dimensionesBarra" data-bs-theme="dark">
+    <div class="container-fluid bg-dark justify-content-center">
+      
+      <div>
+      <a class="navbar-brand" href="#">
+        <img src="/proyecto_1/assets/img/logo1.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-center">
+          TIENDA DE ROPA
+      </a>
       </div>
-    </nav>
-  </section>
+
+      <div>
+        <ul class="nav nav-pills justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link pestañas" aria-current="page" href="<?php echo base_url();?>"><i class="fa-solid fa-house"></i> INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pestañas" href="<?php echo base_url('nosotros');?>"><i class="fa-solid fa-users"></i> NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pestañas" href="<?php echo base_url('contacto');?>"><i class="fa-solid fa-address-book"></i> CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pestañas" href="#"><i class="fa-solid fa-truck-fast"></i> COMERCIALIZACIÓN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pestañas" href="#"><i class="fa-solid fa-scale-balanced"></i> TÉRMINOS</a>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+  </nav>

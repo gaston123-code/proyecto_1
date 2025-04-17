@@ -11,40 +11,38 @@ body{
 
 /*barra de navegación*/
 
-.barra{
-    margin:0;
-    padding:0;
-}
-
-.barra .navbar{
-    
-    padding:0;
-}
-
-.barra .navbar .container-fluid{
-    background-color: black;
-    margin:0;
-    padding:0;
-    height:50px;
-    border-bottom:5px white solid;
-}
-
-.navbar-brand{
-    padding-left: 10px;
-    color:white;
-}
-
-.barra .navbar .container-fluid .collapse .navbar-nav .nav-item a{
-    color:white;
-}
-
-.barra .navbar .container-fluid .collapse .navbar-nav .nav-item:hover{
-    background-color:white;
-}
-
-.barra .navbar .container-fluid .collapse .navbar-nav .nav-item a:hover{
-    color:black;
-}
+.dimensionesBarra{
+    height:85px;
+    font-size:large
+  }
+  
+  a, a:visited.pestañas {
+    color: white;
+  }
+  
+  a:hover.pestañas {
+    background-color: rgb(66, 66, 66);
+    color: white;
+  }
+  
+  a:active.pestañas {
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 153, 231);
+  }
+  
+  .titulo{
+    font-weight: 900;
+  }
+  
+  .celdas{
+    vertical-align: top;
+  
+  }
+  
+  .tabla {
+    border-collapse: separate;
+    border-spacing: 30px; 
+  }
 
 /*inicio*/
 
