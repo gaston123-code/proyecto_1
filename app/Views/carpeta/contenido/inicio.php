@@ -129,18 +129,25 @@
 
 
   <section class="container">
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col container-h d-flex justify-content-center">
-        <div class="image-container justify-content-center mb-5">
-          <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/h.jpg');?>" class="card-img-top" alt="...">
-          <h3>Sección Hombre</h3></a>
+  <div class="row row-cols-1 row-cols-md-2 g-4 my-5">
+    <div class="col container-c d-flex justify-content-center">
+      <div class="card h-95 image-container justify-content-center mb-5">
+        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/h.jpg');?>" class="card-img-top" alt="...">
+        <div class="card-body mb-3">
+          <h5 class="card-title text-center">Seccion Hombre</h5>
         </div>
+        </a>
+        
       </div>
-      <div class="col container-m d-flex justify-content-center">
-        <div class="image-container justify-content-center mb-5">
-          <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/m.jpg');?>" class="card-img-top" alt="...">
-          <h3>Sección Mujer</h3></a>
+    </div>
+    <div class="col container-z d-flex justify-content-center">
+      <div class="card h-80 image-container justify-content-center mb-5">
+        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/m.jpg');?>" class="card-img-top" alt="...">
+        <div class="card-body mb-3">
+          <h5 class="card-title text-center">Seccion mujer</h5>
         </div>
+        </a>
+        
       </div>
     </div>
     </section>
@@ -151,40 +158,45 @@
   
 
 <section class="container-fluid">
-    <div class="row row-cols-1 row-cols-md-3 g-3 my-5">
-  <div class="col container-c">
-    <div class="card h-100 image-container justify-content-center mb-5">
-      <img src="<?php echo base_url('assets/img/3.webp');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Camperas</h5>
+  <div class="row row-cols-1 row-cols-md-3 g-3 my-5">
+    <div class="col container-c d-flex justify-content-center">
+      <div class="card h-100% image-container justify-content-center mb-5">
+        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/3.webp');?>" class="card-img-top" alt="...">
+        <div class="card-body mb-3">
+          <h5 class="card-title text-center">Camperas</h5>
+        </div>
+        </a>
+        
+      </div>
+    </div>
+    <div class="col container-z d-flex justify-content-center">
+      <div class="card h-100% image-container justify-content-center mb-5">
+        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/6.webp');?>" class="card-img-top" alt="...">
+        <div class="card-body mb-3">
+          <h5 class="card-title text-center">Zapatillas</h5>
+        </div>
+        </a>
+        
+      </div>
+    </div>
+    <div class="col container-p d-flex justify-content-center">
+      <div class="card h-100% image-container justify-content-center mb-5">
+        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/7.webp');?>" class="card-img-top" alt="...">
+        <div class="card-body mb-3">
+          <h5 class="card-title text-center">Pantalones</h5>
+        </div>
+        </a>
+        
       </div>
     </div>
   </div>
-  <div class="col container-z">
-    <div class="card h-100 image-container justify-content-center mb-5">
-      <img src="<?php echo base_url('assets/img/6.webp');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Zapatillas</h5>
-      </div>
-    </div>
-  </div>
-  <div class="col container-p">
-    <div class="card h-100 image-container justify-content-center mb-5">
-      <img src="<?php echo base_url('assets/img/7.webp');?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Pantalones</h5>
-      </div>
-    </div>
-  </div>
-</div>
-    </section>
+</section>
 
-  <section class="container-presentation">
+<section class="container-presentation">
     <h1 class="text-center">
-    [Nombre de la tienda] - Tu espacio para la ropa deportiva
+      [Nombre de la tienda] - Tu espacio para la ropa deportiva
     </h1>
     <p class="text-center mx-5 px-5 mb-5">[Nombre de la tienda] - Ropa deportiva para tu estilo de vida activo
-Descubre ropa y accesorios deportivos diseñados para combinar comodidad, funcionalidad y estilo. Ofrecemos productos de alta calidad, envíos rápidos y devoluciones fáciles. Únete a nuestra comunidad y equipa tu pasión por el deporte.
-
-</p>
-  </section>
+      Descubre ropa y accesorios deportivos diseñados para combinar comodidad, funcionalidad y estilo. Ofrecemos productos de alta calidad, envíos rápidos y devoluciones fáciles. Únete a nuestra comunidad y equipa tu pasión por el deporte.
+    </p>
+</section>
