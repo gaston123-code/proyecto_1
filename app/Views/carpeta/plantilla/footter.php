@@ -1,4 +1,4 @@
-<footer class="container-fluid centertext- navbar-expand-lg align-items-center">
+<footer class="container-fluid text-center navbar-expand-lg align-items-center">
       <div class="row align-items-center">
         <div class="col-md-3">
           <form>
@@ -11,8 +11,8 @@
           </form>
         </div>
 
-        <button class="navbar-toggler justify-content-center p-3 mt-2 botón" type="button" data-bs-toggle="collapse" data-bs-target="#footer" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <label for="exampleInputEmail1" class="form-label">Informacion</label>
+        <button class="navbar-toggler justify-content-center p-3 mt-2 botón-footer" type="button" data-bs-toggle="collapse" data-bs-target="#footer" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <label for="exampleInputEmail1" class="form-label">Informacion de la tienda</label>
                 <span class="navbar-toggler-icon"></span>
             </button>
 

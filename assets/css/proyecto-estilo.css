@@ -210,6 +210,14 @@ footer{
     
 }
 
+.botón-footer{
+    background:black;
+    border:5px solid white;
+    width:50%;
+    height:70px;
+    margin-left: 25%;
+}
+
 /*contacto*/
 
 .form{
@@ -231,9 +239,23 @@ footer{
     border:5px solid white;
     width:50%;
     height:70px;
-    margin-left: 25%;
+    
 }
 
 .botón:hover{
     background:darkgray;
+}
+
+/*login*/
+
+.titulo{
+    color:white;
+}
+
+.sub-titulo{
+    color:white;
+}
+
+.parrafo{
+    color:white;
 }

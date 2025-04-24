@@ -1,45 +1,45 @@
-<section class="container-fluid">
-    <div class="row">
+<section class="container-fluid pt-5">
+        <div class="row pt-3">
         
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="<?php echo base_url('assets/img/04.webp');?>" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item active" data-bs-interval="10000">
+                 <img src="<?php echo base_url('assets/img/04.webp');?>" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
                 <img src="<?php echo base_url('assets/img/05.webp');?>" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="<?php echo base_url('assets/img/03.webp');?>" class="d-block w-100" alt="...">
-                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="<?php echo base_url('assets/img/03.webp');?>" class="d-block w-100" alt="...">
+              </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
             </button>
-        </div>
-    </div>  
-  </section>
+          </div>
+        </div>  
+</section>
 
 
   
-      <div class="container-fluid ultimo-lanzamiento-titulo">
+<div class="container-fluid ultimo-lanzamiento-titulo">
         <div class="row">
         <h3 class="text-center ">Ultimos lanzamietos</h3>
         </div>
-      </div>
+</div>
   
 
-    <section class="container-fluid mt-5">
+<section class="container-fluid mt-5">
     <div class="row row-cols-1 row-cols-md-5 g-4">
   <div class="col mt-0">
     <div class="card h-70% w-100%">
@@ -121,8 +121,14 @@
     </div>
   </div>
 
-</div>
-    </section>
+  </div>
+</section>
+
+    <div class="container-fluid ultimo-lanzamiento-titulo mt-3">
+        <div class="row">
+        <h3 class="text-center ">Secciones</h3>
+        </div>
+      </div>
 
 <div class="container-fluid mt-5">
         
@@ -131,7 +137,7 @@
   <section class="container">
   <div class="row row-cols-1 row-cols-md-2 g-4 my-5">
     <div class="col container-c d-flex justify-content-center">
-      <div class="card h-95 image-container justify-content-center mb-5">
+      <div class="card h-100% image-container justify-content-center mb-5">
         <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/h.jpg');?>" class="card-img-top" alt="...">
         <div class="card-body mb-3">
           <h5 class="card-title text-center">Seccion Hombre</h5>
@@ -141,7 +147,7 @@
       </div>
     </div>
     <div class="col container-z d-flex justify-content-center">
-      <div class="card h-80 image-container justify-content-center mb-5">
+      <div class="card h-100% image-container justify-content-center mb-5">
         <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/m.jpg');?>" class="card-img-top" alt="...">
         <div class="card-body mb-3">
           <h5 class="card-title text-center">Seccion mujer</h5>
@@ -194,9 +200,9 @@
 
 <section class="container-presentation">
     <h1 class="text-center">
-      [Nombre de la tienda] - Tu espacio para la ropa deportiva
+    Athletica - Tu espacio para la ropa deportiva
     </h1>
-    <p class="text-center mx-5 px-5 mb-5">[Nombre de la tienda] - Ropa deportiva para tu estilo de vida activo
+    <p class="text-center mx-5 px-5 mb-5">Athletica - Ropa deportiva para tu estilo de vida activo
       Descubre ropa y accesorios deportivos diseñados para combinar comodidad, funcionalidad y estilo. Ofrecemos productos de alta calidad, envíos rápidos y devoluciones fáciles. Únete a nuestra comunidad y equipa tu pasión por el deporte.
     </p>
 </section>
