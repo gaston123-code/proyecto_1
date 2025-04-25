@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 <section class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-6 p-5 bg-black justify-content-center mt-5">
+=======
+<Section class="container-fluid ">
+    <div class="row justify-content-center ">
+        <div class="col-4 m-5 p-5 bg-black justify-content-center">
+>>>>>>> 43d37f5e3c7bde15ad85842b3881a14b1d53594e
             <h1 class="titulo">Iniciar Sesión</h1>
             <h3 class="sub-titulo text-decoration-underline">Clientes registrados</h3>
             <p class="parrafo">Si tiene una cuenta, inicie sesión con su dirección de correo electrónico.</p>
