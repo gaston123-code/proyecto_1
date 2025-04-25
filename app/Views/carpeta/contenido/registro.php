@@ -5,14 +5,14 @@
             <p class="parrafo">Ingrese los datos solicitados para la creacion de su cuenta.</p>
         <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-6">
-    <label for="validationCustom01" class="form-label">First name</label>
+    <label for="validationCustom01" class="form-label">Nombre</label>
     <input type="text" class="form-control" id="validationCustom01"  required>
     <div class="valid-feedback">
       Looks good!
     </div>
   </div>
   <div class="col-md-6">
-    <label for="validationCustom02" class="form-label">Last name</label>
+    <label for="validationCustom02" class="form-label">Apellido</label>
     <input type="text" class="form-control" id="validationCustom02"  required>
     <div class="valid-feedback">
       Looks good!

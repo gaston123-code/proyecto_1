@@ -1,5 +1,5 @@
-<section class="container-fluid pt-5">
-        <div class="row pt-3">
+<section class="container-fluid" >
+        <div class="row" style="padding-top: 70px;">
         
           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">

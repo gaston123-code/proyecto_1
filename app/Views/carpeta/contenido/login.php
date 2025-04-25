@@ -1,7 +1,7 @@
-<Section class="container-fluid ">
-    <div class="row justify-content-center ">
-        <div class="col-4 m-5 p-5 bg-black justify-content-center">
-            <h1 class="titulo">Iniciar Seción</h1>
+<section class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-6 p-5 bg-black justify-content-center mt-5">
+            <h1 class="titulo">Iniciar Sesión</h1>
             <h3 class="sub-titulo text-decoration-underline">Clientes registrados</h3>
             <p class="parrafo">Si tiene una cuenta, inicie sesión con su dirección de correo electrónico.</p>
         <form class="row g-3 needs-validation" novalidate>
@@ -20,12 +20,12 @@
     </div>
   </div>
   
-  <div class="col-12 text-center">
+  <div class="col-12 text-center d-grid gap-2">
     <button class="btn btn-primary" type="submit">INGRESAR</button>
   </div>
   <p class="parrafo text-center mt-5">¿No tiene una cuenta?.</p>
-  <div class="col-12 text-center">
-    <button class="btn btn-primary" type="submit"><a href="<?php echo base_url('registro');?>">CREAR UNA CUENTA</a></button>
+  <div class="col-12 text-center d-grid gap-2">
+    <button class="btn btn-primary text-decoration-none" type="submit"><a href="<?php echo base_url('registro');?>" clase="text-decoration-none">CREAR UNA CUENTA</a></button>
   </div>
 </form>
         </div>
