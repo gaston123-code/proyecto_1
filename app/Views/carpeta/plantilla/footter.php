@@ -32,7 +32,7 @@
             <li class="list-group-item border-0"><a href="#">Politicas de debolución</a></li>
           </ul>
         </div>
-        <div class="col-md-4 justify-content-start redes position-relative">
+        <div class="col-md-4 justify-content-center redes position-relative">
             <ul class="list-group  list-group-horizontal justify-content-center" >
                 <li class="list-group-item  text-decoration-none border-0" ><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
                 <li class="list-group-item text-decoration-none border-0" ><a href="#"><i class="fa-brands fa-square-facebook fa-2x"></i></a></li>
