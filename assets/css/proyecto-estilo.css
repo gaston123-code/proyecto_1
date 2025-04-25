@@ -11,38 +11,57 @@ body{
 
 /*barra de navegación*/
 
+.terminos{
+    padding: 100px; 
+    font-weight: 450
+  }
+
+
+/*barra de navegación*/
+
 .dimensionesBarra{
     height:85px;
     font-size:large
   }
   
-  a, a:visited.pestañas {
-    color: white;
-  }
-  
-  a:hover.pestañas {
-    background-color: rgb(66, 66, 66);
-    color: white;
-  }
-  
-  a:active.pestañas {
-    background-color: rgb(255, 255, 255);
-    color: rgb(17, 153, 231);
-  }
-  
-  .titulo{
-    font-weight: 900;
-  }
-  
-  .celdas{
-    vertical-align: top;
-  
-  }
-  
-  .tabla {
-    border-collapse: separate;
-    border-spacing: 30px; 
-  }
+a, a:visited.pestañas {
+color: white;
+}
+
+a:hover.pestañas {
+background-color: rgb(66, 66, 66);
+color: white;
+}
+
+a:active.pestañas {
+background-color: rgb(255, 255, 255);
+color: rgb(17, 153, 231);
+}
+
+/*nosotros*/
+.titulo{
+font-weight: 900;
+}
+
+.columnas{
+    padding: 80px; 
+    font-weight: 600;
+}
+
+/*comercializacion*/
+.fondoCartas{
+background-color: rgb(230, 230, 230) !important;
+}
+
+.fondoBlanco{
+background-color: white !important;
+}
+
+.botonComercializacion{
+height: 100px; 
+font-weight: 600; 
+font-size: 25px;
+}
 
 /*inicio*/
 
