@@ -169,7 +169,7 @@
       <div class="card h-100% image-container justify-content-center mb-5">
         <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/3.webp');?>" class="card-img-top" alt="...">
         <div class="card-body mb-3">
-          <h5 class="card-title text-center">Camperas</h5>
+          <h5 class="card-title text-center">Indumentaria</h5>
         </div>
         </a>
         

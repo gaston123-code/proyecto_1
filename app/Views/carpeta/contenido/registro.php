@@ -21,7 +21,7 @@
   
   <div class="col-md-12">
     <label for="validationCustom03" class="form-label">correo</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" class="form-control" id="validationCustom03" value="estado y perfil en esta tabla, una sola contraseña" required>
     <div class="invalid-feedback">
       Porfavor ingrese su correo.
     </div>

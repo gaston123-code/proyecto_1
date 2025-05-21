@@ -8,47 +8,55 @@
             <div class="col-8 form p-5">
                     <h3 class="text-decoration-underline">¡No dudes en mandarnos tu consulta!</h3>
                     <p>Envianos un mensaje a través de nuestro formulario de contacto o bien utilizando nuestro correo ecommerce@Athletica.com.ar</p>
-                <form class="row g-3 needs-validation" novalidate>
+                    <?php
+
+helper('form');?>
+                <?php if (!empty($validation)): ?>
+                <div call="alert alert-danger" role="alert">
+                    <ul>
+                        <?php foreach ($validation as $error): ?>
+                        <li>
+                            <?= esc($error) ?>
+                        </li>
+                        <?php endforeach ?>
+                    </ul>
+                </div>
+            <?php endif ?>
+
+            <?php if (session('mensaje_consulta')){
+                echo session('mensaje_consulta');
+            }?>
+
+            <?php echo form_open('consulta') ?>
+
+            
+                <form class="row g-3 needs-validation">
                     <div class="col-md-12 position-relative">
-                        <label for="validationTooltip01" class="form-label">Nombre y apellido</label>
-                        <input type="text" class="form-control" id="validationTooltip01" required>
-                        <div class="valid-tooltip">
-                            Looks good!
-                        </div>
+                        <label for="nombre" class="form-label">Nombre y apellido</label>
+                        <?php echo form_input(['name' => 'nombre', 'id' => 'nombre', 'type' => 'text', 'calss' => 'form-control', 'placeholder' => 'ingrese nombre', 'value' => set_value('nombre')]); ?>
                     </div>
                     <div class="col-md-6 position-relative">
-                        <label for="validationTooltip02" class="form-label">Telefono</label>
-                        <input type="text" class="form-control" id="validationTooltip02" required>
-                        <div class="valid-tooltip">
-                            Looks good!
-                        </div>
+                        <label for="telefono" class="form-label">Telefono</label>
+                        <?php echo form_input(['name' => 'telefono', 'id' => 'telefono', 'type' => 'number', 'calss' => 'form-control', 'placeholder' => 'ingrese su telefono', 'value' => set_value('telefono')]); ?>
                     </div>
                     <div class="col-md-6 position-relative">
                         <label for="validationTooltipUsername" class="form-label">Email</label>
-                        <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-                            <div class="invalid-tooltip">
-                                Por favor ingrese un correo valido.
-                            </div>
+                        <?php echo form_input(['name' => 'correo', 'id' => 'email', 'type' => 'text', 'calss' => 'form-control', 'placeholder' => 'ingrese su email', 'value' => set_value('email')]); ?>
                     </div>
                     
                     <div class="col-md-12 position-relative">
                         <label for="validationTooltip04" class="form-label">Asunto</label>
-                        <input type="text" class="form-control" id="validationTooltip03" required>
-                        <div class="invalid-tooltip">
-                            Por favor complete el campo.
-                        </div>
+                        <?php echo form_input(['name' => 'motivo', 'id' => 'asunto', 'type' => 'text', 'calss' => 'form-control', 'placeholder' => 'ingrese el asunto', 'value' => set_value('asunto')]); ?>
                     </div>
                     <div class="col-md-12 position-relative">
                         <label for="validationTooltip05" class="form-label">Consulta</label>
-                        <input type="text" class="form-control" id="validationTooltip05" required>
-                        <div class="invalid-tooltip">
-                            Por favor complete el campo.
-                        </div>
+                        <?php echo form_textarea(['name' => 'consulta', 'id' => 'consulta', 'type' => 'text', 'calss' => 'form-control', 'placeholder' => 'ingrese su consulta', 'value' => set_value('conulta')]); ?>
                     </div>
                     <div class="col-12 d-grid gap-2">
-                        <button class="btn btn-primary" type="submit">Enviar</button>
+                        <?php echo form_submit ('Consulta', 'Enviar', "class='btn btn-success mt-3'"); ?>
                     </div>
                 </form>
+            <?php echo form_close();?>
             </div>
 
             <button class="navbar-toggler ml-0 p-3 botón" type="button" data-bs-toggle="collapse" data-bs-target="#lateral" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
