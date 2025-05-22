@@ -16,14 +16,11 @@
                 </div>
             <?php endif ?>
 
+             <?php if (session('registro_ok')){
+                echo session('registro_ok');
+            }?>
 
-            <?php if (session('registro_ok')): ?>
-                <div class="alert alert-success">
-                    <?= session('registro_ok') ?>
-                </div>
-            <?php endif ?>
-
-            <?= form_open('registro_usuario') ?>
+            <?php echo form_open('registro_usuario') ?>
 
             <div class="row g-3 needs-validation">
 
@@ -57,7 +54,7 @@
                 </div>
             </div>
 
-            <?= form_close() ?>
+            <?php echo form_close() ?>
         </div>
     </div>
 </section>
