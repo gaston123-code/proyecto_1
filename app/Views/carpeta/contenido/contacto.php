@@ -33,24 +33,24 @@ helper('form');?>
                 <form class="row g-3 needs-validation">
                     <div class="col-md-12 position-relative">
                         <label for="nombre" class="form-label">Nombre y apellido</label>
-                        <?php echo form_input(['name' => 'nombre', 'id' => 'nombre', 'type' => 'text', 'calss' => 'form-control', 'placeholder' => 'ingrese nombre', 'value' => set_value('nombre')]); ?>
+                        <?php echo form_input(['name' => 'nombre', 'id' => 'nombre', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'ingrese nombre', 'value' => set_value('nombre')]); ?>
                     </div>
                     <div class="col-md-6 position-relative">
                         <label for="telefono" class="form-label">Telefono</label>
-                        <?php echo form_input(['name' => 'telefono', 'id' => 'telefono', 'type' => 'number', 'calss' => 'form-control', 'placeholder' => 'ingrese su telefono', 'value' => set_value('telefono')]); ?>
+                        <?php echo form_input(['name' => 'telefono', 'id' => 'telefono', 'type' => 'number', 'class' => 'form-control', 'placeholder' => 'ingrese su telefono', 'value' => set_value('telefono')]); ?>
                     </div>
                     <div class="col-md-6 position-relative">
                         <label for="validationTooltipUsername" class="form-label">Email</label>
-                        <?php echo form_input(['name' => 'correo', 'id' => 'email', 'type' => 'text', 'calss' => 'form-control', 'placeholder' => 'ingrese su email', 'value' => set_value('email')]); ?>
+                        <?php echo form_input(['name' => 'correo', 'id' => 'email', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'ingrese su email', 'value' => set_value('email')]); ?>
                     </div>
                     
                     <div class="col-md-12 position-relative">
                         <label for="validationTooltip04" class="form-label">Asunto</label>
-                        <?php echo form_input(['name' => 'motivo', 'id' => 'asunto', 'type' => 'text', 'calss' => 'form-control', 'placeholder' => 'ingrese el asunto', 'value' => set_value('asunto')]); ?>
+                        <?php echo form_input(['name' => 'motivo', 'id' => 'asunto', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'ingrese el asunto', 'value' => set_value('asunto')]); ?>
                     </div>
                     <div class="col-md-12 position-relative">
                         <label for="validationTooltip05" class="form-label">Consulta</label>
-                        <?php echo form_textarea(['name' => 'consulta', 'id' => 'consulta', 'type' => 'text', 'calss' => 'form-control', 'placeholder' => 'ingrese su consulta', 'value' => set_value('conulta')]); ?>
+                        <?php echo form_textarea(['name' => 'consulta', 'id' => 'consulta', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'ingrese su consulta', 'value' => set_value('conulta')]); ?>
                     </div>
                     <div class="col-12 d-grid gap-2">
                         <?php echo form_submit ('Consulta', 'Enviar', "class='btn btn-success mt-3'"); ?>
