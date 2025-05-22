@@ -20,41 +20,41 @@
                 echo session('registro_ok');
             }?>
 
-            <?= form_open('registro_usuario') ?>
+            <?php echo form_open('registro_usuario') ?>
 
             <div class="row g-3 needs-validation">
 
                 <div class="col-md-6">
                     <label for="nombre" class="form-label">Nombre</label>
-                    <?= form_input(['name' => 'nombre', 'id' => 'nombre', 'class' => 'form-control', 'required' => true, 'value' => set_value('nombre')]) ?>
+                    <?php echo form_input(['name' => 'nombre', 'id' => 'nombre', 'class' => 'form-control', 'required' => true, 'value' => set_value('nombre')]) ?>
                 </div>
 
                 <div class="col-md-6">
                     <label for="apellido" class="form-label">Apellido</label>
-                    <?= form_input(['name' => 'apellido', 'id' => 'apellido', 'class' => 'form-control', 'required' => true, 'value' => set_value('apellido')]) ?>
+                    <?php echo form_input(['name' => 'apellido', 'id' => 'apellido', 'class' => 'form-control', 'required' => true, 'value' => set_value('apellido')]) ?>
                 </div>
 
                 <div class="col-md-12">
                     <label for="correo" class="form-label">Correo</label>
-                    <?= form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'email', 'class' => 'form-control', 'required' => true, 'value' => set_value('correo')]) ?>
+                    <?php echo form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'email', 'class' => 'form-control', 'required' => true, 'value' => set_value('correo')]) ?>
                 </div>
 
                 <div class="col-md-12">
                     <label for="contrasena" class="form-label">Contraseña</label>
-                    <?= form_password(['name' => 'contrasena', 'id' => 'contrasena', 'class' => 'form-control', 'required' => true]) ?>
+                    <?php echo form_password(['name' => 'contrasena', 'id' => 'contrasena', 'class' => 'form-control', 'required' => true]) ?>
                 </div>
 
                 <div class="col-md-12">
                     <label for="confirmar" class="form-label">Confirmar Contraseña</label>
-                    <?= form_password(['name' => 'confirmar', 'id' => 'confirmar', 'class' => 'form-control', 'required' => true]) ?>
+                    <?php echo form_password(['name' => 'confirmar', 'id' => 'confirmar', 'class' => 'form-control', 'required' => true]) ?>
                 </div>
 
                 <div class="col-12 text-center">
-                    <?= form_submit('registro', 'CREAR CUENTA', "class='btn btn-primary mt-3'") ?>
+                    <?php echo form_submit('registro', 'CREAR CUENTA', "class='btn btn-primary mt-3'") ?>
                 </div>
             </div>
 
-            <?= form_close() ?>
+            <?php echo form_close() ?>
         </div>
     </div>
 </section>
