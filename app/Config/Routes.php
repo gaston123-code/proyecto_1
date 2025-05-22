@@ -20,4 +20,4 @@ $routes->get('terminos', 'Home::terminos');
 $routes->get('login', 'Home::login');
 
 $routes->get('registro', 'Home::registro');
-$routes->post('registro_usuario', 'Usuarios_controller::add_registro');
+$routes->post('registro_usuario', 'usuario_contoller::add_registro');
