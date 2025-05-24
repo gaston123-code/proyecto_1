@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse" id="navbarContenido">
       <ul class="navbar-nav mx-auto text-center">
         <li class="nav-item">
-          <a class="nav-link pestañas" aria-current="page" href="<?php echo base_url();?>"><i class="fa-solid fa-house"></i> INICIO</a>
+          <a class="nav-link pestañas" aria-current="page" href="<?php echo base_url('inicio_admin');?>"><i class="fa-solid fa-house"></i> INICIO</a>
         </li>
         <li class="nav-item">
           <a class="nav-link pestañas" href="<?php echo base_url('nosotros');?>"><i class="fa-solid fa-users"></i> NOSOTROS</a>
@@ -25,21 +25,25 @@
           <a class="nav-link pestañas" href="<?php echo base_url('contacto');?>"><i class="fa-solid fa-address-book"></i> CONTACTO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link pestañas" href="<?php echo base_url('comercializacion');?>"><i class="fa-solid fa-truck-fast"></i> COMERCIALIZACIÓN</a>
+          <a class="nav-link pestañas" href="<?php echo base_url('productos');?>"><i class="fa-solid fa-truck-fast"></i> PRODUCTOS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link pestañas" href="<?php echo base_url('terminos');?>"><i class="fa-solid fa-scale-balanced"></i> TÉRMINOS</a>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link pestañas" href="<?php echo base_url('login');?>"><i class="fa-solid fa-user"></i> USUARIO</a>
+        </li>
+      </ul>
+    </div>
 
-        <?php if (session('login')) {
+    <?php if (session('login')) {
       ?>
       <li class="nav-item">
-          <a class="nav-link pestañas" aria-current="page" href="ver_carrito"><i class="fa-solid fa-house"></i> VER CARRITO</a>
+          <a class="nav-link pestañas" aria-current="page" href="<?php echo base_url();?>"><i class="fa-solid fa-house"></i> VER CARRITO</a>
       </li>
 
       <li class="nav-item">
-          <a class="nav-link pestañas" aria-current="page" href="#"><?php echo session('apellido');?></a>
+          <a class="nav-link pestañas" aria-current="page" href="<?php echo session('apellido');?>"></a>
       </li>
 
       <li class="nav-item">
@@ -53,11 +57,6 @@
         </li>
 
       <?php } ?>
-
-      </ul>
-    </div>
-
-    
 
   </div>
 </nav>

@@ -8,20 +8,35 @@
             <h1 class="titulo">Iniciar Sesión</h1>
             <h3 class="sub-titulo text-decoration-underline">Clientes registrados</h3>
             <p class="parrafo">Si tiene una cuenta, inicie sesión con su dirección de correo electrónico.</p>
+
+            <?php helper('form'); ?>
+
+            <?php if (!empty($validation)): ?>
+                <div class="alert alert-danger" role="alert">
+                    <ul>
+                        <?php foreach ($validation as $error): ?>
+                            <li><?= esc($error) ?></li>
+                        <?php endforeach ?>
+                    </ul>
+                </div>
+            <?php endif ?>
+
+            <?php if (session('mensaje')): ?>
+                <div class="alert alert-success">
+                    <?= session('mensaje') ?>
+                </div>
+            <?php endif ?>
+
+            <?= form_open('login_cliente') ?>
+
         <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-12">
     <label for="validationCustom01" class="form-label">correo</label>
-    <input type="text" class="form-control" id="validationCustom01"  required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
+    <?= form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'email', 'class' => 'form-control', 'required' => true, 'value' => set_value('correo')]) ?>
   </div>
   <div class="col-md-12">
     <label for="validationCustom02" class="form-label">contraseña</label>
-    <input type="text" class="form-control" id="validationCustom02" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
+    <?= form_password(['name' => 'contrasena', 'id' => 'contrasena', 'class' => 'form-control', 'required' => true]) ?>
   </div>
   
   <div class="col-12 text-center d-grid gap-2">

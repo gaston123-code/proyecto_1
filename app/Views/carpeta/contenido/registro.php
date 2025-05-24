@@ -1,50 +1,63 @@
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-6 m-5 p-5 bg-black justify-content-center">
+        <div class="col-6 m-5 p-5 bg-black justify-content-center text-white">
             <h1 class="titulo">Nueva cuenta</h1>
-            <p class="parrafo">Ingrese los datos solicitados para la creacion de su cuenta.</p>
-        <form class="row g-3 needs-validation" novalidate>
-  <div class="col-md-6">
-    <label for="validationCustom01" class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="validationCustom01"  required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-6">
-    <label for="validationCustom02" class="form-label">Apellido</label>
-    <input type="text" class="form-control" id="validationCustom02"  required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  
-  <div class="col-md-12">
-    <label for="validationCustom03" class="form-label">correo</label>
-    <input type="text" class="form-control" id="validationCustom03" value="estado y perfil en esta tabla, una sola contraseña" required>
-    <div class="invalid-feedback">
-      Porfavor ingrese su correo.
-    </div>
-  </div>
-  <div class="col-md-12">
-    <label for="validationCustom04" class="form-label">contraseña</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
-    <div class="invalid-feedback">
-      Porfavor ingrese una contraceña.
-    </div>
-  </div>
-  <div class="col-md-12">
-    <label for="validationCustom05" class="form-label">confirmar contraseña</label>
-    <input type="text" class="form-control" id="validationCustom05" required>
-    <div class="invalid-feedback">
-      Las contraseñas no coinciden.
-    </div>
-  </div>
- 
-  <div class="col-12 text-center">
-    <button class="btn btn-primary" type="submit">CREAR CUENTA</button>
-  </div>
-</form>
+            <p class="parrafo">Ingrese los datos solicitados para la creación de su cuenta.</p>
+
+            <?php helper('form'); ?>
+
+            <?php if (!empty($validation)): ?>
+                <div class="alert alert-danger" role="alert">
+                    <ul>
+                        <?php foreach ($validation as $error): ?>
+                            <li><?= esc($error) ?></li>
+                        <?php endforeach ?>
+                    </ul>
+                </div>
+            <?php endif ?>
+
+
+            <?php if (session('registro_ok')): ?>
+                <div class="alert alert-success">
+                    <?= session('registro_ok') ?>
+                </div>
+            <?php endif ?>
+
+            <?= form_open('registro_usuario') ?>
+
+            <div class="row g-3 needs-validation">
+
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <?= form_input(['name' => 'nombre', 'id' => 'nombre', 'class' => 'form-control', 'required' => true, 'value' => set_value('nombre')]) ?>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <?= form_input(['name' => 'apellido', 'id' => 'apellido', 'class' => 'form-control', 'required' => true, 'value' => set_value('apellido')]) ?>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="correo" class="form-label">Correo</label>
+                    <?= form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'email', 'class' => 'form-control', 'required' => true, 'value' => set_value('correo')]) ?>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="contrasena" class="form-label">Contraseña</label>
+                    <?= form_password(['name' => 'contrasena', 'id' => 'contrasena', 'class' => 'form-control', 'required' => true]) ?>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="confirmar" class="form-label">Confirmar Contraseña</label>
+                    <?= form_password(['name' => 'confirmar', 'id' => 'confirmar', 'class' => 'form-control', 'required' => true]) ?>
+                </div>
+
+                <div class="col-12 text-center">
+                    <?= form_submit('registro', 'CREAR CUENTA', "class='btn btn-primary mt-3'") ?>
+                </div>
+            </div>
+
+            <?= form_close() ?>
         </div>
     </div>
 </section>
