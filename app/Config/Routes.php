@@ -23,8 +23,12 @@ $routes->post('login_cliente', 'usuario_contoller::buscar_usuario');
 $routes->get('logout', 'usuario_contoller::cerrar_sesion');
 
 $routes->get('registro', 'Home::registro');
+<<<<<<< HEAD
 $routes->post('registro_usuario', 'Usuario_contoller::add_registro');
 
 $routes->get('inicio_admin', 'usuario_contoller::admin');
 
 $routes->get('productos', 'usuario_contoller::admin');
+=======
+$routes->post('registro_usuario', 'usuario_contoller::add_registro');
+>>>>>>> 7bd20555d2de4632df992bd4bde886985b5ca605

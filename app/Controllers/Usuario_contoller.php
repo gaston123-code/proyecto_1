@@ -73,7 +73,11 @@ if ($validation->withRequest($request)->run() ){
 
         }
 
+<<<<<<< HEAD
      public function add_registro()
+=======
+    public function add_registro()
+>>>>>>> 7bd20555d2de4632df992bd4bde886985b5ca605
 {
     $validation = \Config\Services::validation();
     $request = \Config\Services::request();
@@ -117,6 +121,7 @@ if ($validation->withRequest($request)->run() ){
     'apellido_registro'   => $request->getPost('apellido'),
     'correo_registro'     => $request->getPost('correo'),
     'contrasena_registro' => password_hash($request->getPost('contrasena'), PASSWORD_DEFAULT),
+<<<<<<< HEAD
     'estado_registro'     => 1,
     'perfil_registro'     => 1,
 ];
@@ -125,12 +130,27 @@ $registro = new Registro_model();
 $registro->insert($data);
 
     return redirect()->route('registro')->with('registro_ok', 'Cuenta creada correctamente.');
+=======
+    'estado_registro'     => 'activo',
+    'perfil_registro'     => 'usuario',
+];
+
+$registro = new \App\Models\Registro_model();
+$registro->insert($data);
+
+    return redirect()->to('registro')->with('registro_ok', 'Cuenta creada correctamente.');
+>>>>>>> 7bd20555d2de4632df992bd4bde886985b5ca605
                             
                 }else{
                  $data['titulo'] = 'Registro';
                 $data['validation'] = $validation->getErrors();
                  return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\registro.php').view('\carpeta\plantilla\footter.php');
                 }
+<<<<<<< HEAD
+=======
+}
+
+>>>>>>> 7bd20555d2de4632df992bd4bde886985b5ca605
 }
 
 public function buscar_usuario(){
