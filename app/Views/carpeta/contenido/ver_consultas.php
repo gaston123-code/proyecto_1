@@ -33,10 +33,10 @@
 
                     <?php
         if($item['estado_mensaje']==1) {?>
-        <td><a class="btn" href="<?php echo base_url('leer/'.$item['id_mensaje']);?>">No leido</a></td>
+        <td><a class="btn btn-danger" href="<?php echo base_url('leer/'.$item['id_mensaje']);?>">No leido</a></td>
         <?php } else{
             ?>
-            <td><a class="btn" href="<?php echo base_url('noLeer/'.$item['id_mensaje']);?>">Leido</a></td>
+            <td><a class="btn btn-success" href="<?php echo base_url('noLeer/'.$item['id_mensaje']);?>">Leido</a></td>
             <?php } ?>
             <td>
     <?= isset($item['cliente_id']) && !empty($item['cliente_id']) ? 'Registrado' : 'No registrado' ?>

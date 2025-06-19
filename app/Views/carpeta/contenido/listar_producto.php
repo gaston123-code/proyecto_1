@@ -38,13 +38,13 @@
         
         <td><img src="<?php echo base_url('assets/uploads/'.$row['imagen_producto']);?>" alt=""height="100" width="100"/></td>
         <td>
-            <a class="btn" href="<?php echo base_url('editar/'.$row['id_producto']);?>">Editar </a></td>
+            <a class="btn btn-primary" href="<?php echo base_url('editar/'.$row['id_producto']);?>">Editar </a></td>
         <?php
         if($row['estado_producto']==1) {?>
-        <td><a class="btn" href="<?php echo base_url('eliminar/'.$row['id_producto']);?>">Eliminar</a></td>
+        <td><a class="btn btn-danger" href="<?php echo base_url('eliminar/'.$row['id_producto']);?>">Eliminar</a></td>
         <?php } else{
             ?>
-            <td><a class="btn" href="<?php echo base_url('activar/'.$row['id_producto']);?>">Activar</a></td>
+            <td><a class="btn btn-success" href="<?php echo base_url('activar/'.$row['id_producto']);?>">Activar</a></td>
             <?php } ?>
         </tr>
             <?php }?>

@@ -19,7 +19,7 @@
                     <td><?= esc($item['venta_fecha']) ?></td>
                     <td><?= esc($item['venta_total_compra']) ?></td>
                     <td>
-            <a class="btn" href="<?php echo base_url('ver-detalles/'.$item['id_venta']);?>">Ver detalles </a></td>
+            <a class="btn btn-info" href="<?php echo base_url('ver-detalles/'.$item['id_venta']);?>">Ver detalles </a></td>
                 </tr>
                 
     <?php endforeach; ?>
