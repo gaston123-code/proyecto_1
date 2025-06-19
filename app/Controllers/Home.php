@@ -30,7 +30,7 @@ class Home extends BaseController
 
     public function terminos()
     {
-        $data['titulo']= "comercializacion";
+        $data['titulo']= "terminos";
         return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\terminos.php').view('\carpeta\plantilla\footter.php');
     }
 
@@ -46,6 +46,40 @@ class Home extends BaseController
         return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\registro.php').view('\carpeta\plantilla\footter.php');
     }
 
+    public function agregarProductos()
+    {
+        $data['titulo']= "Agregar productos";
+        return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\agregar_productos.php').view('\carpeta\plantilla\footter.php');
+    }
+    public function verConsultas()
+    {
+        $data['titulo']= "Ver consultas";
+        return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\ver_consultas.php').view('\carpeta\plantilla\footter.php');
+    }
+
+    public function gestionarInventario()
+    {
+        $data['titulo']= "Gestionar inventario";
+        return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\gestionar_inventario.php').view('\carpeta\plantilla\footter.php');
+    }
+
+    public function verCarrito()
+    {
+        $data['titulo']= "Ver carrito";
+        return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\ver_carrito.php').view('\carpeta\plantilla\footter.php');
+    }
+
+    public function verCatalogo()
+    {
+        $data['titulo']= "Ver catalogo";
+        return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\catalogo.php').view('\carpeta\plantilla\footter.php');
+    }
+
+    public function verUsuario()
+    {
+        $data['titulo']= "Usuario";
+        return view('\carpeta\plantilla\header.php', $data).view('\carpeta\plantilla\nav.php').view('\carpeta\contenido\ver_usuario.php').view('\carpeta\plantilla\footter.php');
+    }
 }
 
 

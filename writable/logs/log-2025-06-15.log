@@ -1,0 +1,261 @@
+DEBUG - 2025-06-15 17:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-15 17:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-15 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-15 17:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 17:03:53 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: lista-venta]
+in APPPATH\Controllers\Carrito_controller.php on line 116.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_1\\app\\Controllers\\Carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 17:05:13 --> ErrorException: Undefined variable $venta
+[Method: GET, Route: lista-venta]
+in APPPATH\Controllers\Carrito_controller.php on line 115.
+ 1 APPPATH\Controllers\Carrito_controller.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $venta', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Controllers\\Carrito_controller.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 17:19:34 --> mysqli_sql_exception: Table 'bd_encinas_chavarria_2025.registros' doesn't exist in C:\xampp\htdocs\proyecto_1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_1\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_1\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_1\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_1\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_1\app\Controllers\Carrito_controller.php(116): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_1\system\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas()
+#8 C:\xampp\htdocs\proyecto_1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#9 C:\xampp\htdocs\proyecto_1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_1\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-15 17:19:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bd_encinas_chavarria_2025.registros' doesn't exist
+[Method: GET, Route: lista-venta]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `venta`
+JOIN `registros` ON `registro`.`id_registro`=`venta`.`id_cliente`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Carrito_controller.php(116): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 17:19:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bd_encinas_chavarria_2025.registros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `venta`
+JOIN `registros` ON `registro`.`id_registro`=`venta`.`id_cliente`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `venta`
+JOIN `registros` ON `registro`.`id_registro`=`venta`.`id_cliente`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `venta`
+JOIN `registros` ON `registro`.`id_registro`=`venta`.`id_cliente`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Carrito_controller.php(116): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 17:19:34 --> [Caused by] mysqli_sql_exception: Table 'bd_encinas_chavarria_2025.registros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `venta`
+JOIN `registros` ON `registro`.`id_registro`=`venta`.`id_cliente`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `venta`
+JOIN `registros` ON `registro`.`id_registro`=`venta`.`id_cliente`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `venta`
+JOIN `registros` ON `registro`.`id_registro`=`venta`.`id_cliente`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `venta`
+JOIN `registros` ON `registro`.`id_registro`=`venta`.`id_cliente`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Carrito_controller.php(116): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 17:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 17:19:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "carpeta/contenido/listar_ventas.php"
+[Method: GET, Route: lista-venta]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carpeta/contenido/listar_ventas.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listar_ventas', [], true)
+ 3 APPPATH\Controllers\Carrito_controller.php(120): view('carpeta/contenido/listar_ventas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 17:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 17:26:40 --> ErrorException: Undefined variable $venta
+[Method: GET, Route: lista-venta]
+in APPPATH\Views\carpeta\contenido\listar_venta.php on line 13.
+ 1 APPPATH\Views\carpeta\contenido\listar_venta.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $venta', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listar_venta.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listar_venta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listar_venta', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(120): view('carpeta/contenido/listar_venta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 17:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-15 17:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 18:14:41 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: lista-venta]
+in APPPATH\Controllers\Carrito_controller.php on line 117.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_1\\app\\Controllers\\Carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 18:15:21 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: lista-venta]
+in APPPATH\Controllers\Carrito_controller.php on line 117.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_1\\app\\Controllers\\Carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 18:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 18:15:52 --> ErrorException: Undefined variable $row
+[Method: GET, Route: lista-venta]
+in APPPATH\Views\carpeta\contenido\listar_venta.php on line 21.
+ 1 APPPATH\Views\carpeta\contenido\listar_venta.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listar_venta.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listar_venta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listar_venta', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(120): view('carpeta/contenido/listar_venta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 18:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-15 18:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-15 18:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-15 18:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-15 18:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 18:20:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "carpeta/contenido/listar_detalles.php"
+[Method: GET, Route: ver-detalles/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carpeta/contenido/listar_detalles.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listar_detalles', [], true)
+ 3 APPPATH\Controllers\Carrito_controller.php(135): view('carpeta/contenido/listar_detalles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas_detalles('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 18:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 18:20:59 --> ErrorException: Undefined array key "nombre_registro"
+[Method: GET, Route: ver-detalles/1]
+in APPPATH\Views\carpeta\contenido\listaar_detalles.php on line 16.
+ 1 APPPATH\Views\carpeta\contenido\listaar_detalles.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_registro"', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listaar_detalles', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(135): view('carpeta/contenido/listaar_detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas_detalles('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 18:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 18:23:41 --> ErrorException: Undefined array key "descripcion_producto"
+[Method: GET, Route: ver-detalles/1]
+in APPPATH\Views\carpeta\contenido\listaar_detalles.php on line 17.
+ 1 APPPATH\Views\carpeta\contenido\listaar_detalles.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion_producto"', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listaar_detalles', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(135): view('carpeta/contenido/listaar_detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas_detalles('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 18:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 18:24:20 --> ErrorException: Undefined array key "descrpcion_producto"
+[Method: GET, Route: ver-detalles/1]
+in APPPATH\Views\carpeta\contenido\listaar_detalles.php on line 17.
+ 1 APPPATH\Views\carpeta\contenido\listaar_detalles.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descrpcion_producto"', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listaar_detalles', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(135): view('carpeta/contenido/listaar_detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas_detalles('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 18:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 18:34:16 --> ErrorException: Undefined array key "descrpcion_producto"
+[Method: GET, Route: ver-detalles/1]
+in APPPATH\Views\carpeta\contenido\listaar_detalles.php on line 17.
+ 1 APPPATH\Views\carpeta\contenido\listaar_detalles.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descrpcion_producto"', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listaar_detalles', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(135): view('carpeta/contenido/listaar_detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas_detalles('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-15 18:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-15 18:36:05 --> ErrorException: Undefined array key "descrpcion_producto"
+[Method: GET, Route: ver-detalles/1]
+in APPPATH\Views\carpeta\contenido\listaar_detalles.php on line 17.
+ 1 APPPATH\Views\carpeta\contenido\listaar_detalles.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descrpcion_producto"', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\listaar_detalles.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('carpeta/contenido/listaar_detalles', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(135): view('carpeta/contenido/listaar_detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carrito_controller->listar_ventas_detalles('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

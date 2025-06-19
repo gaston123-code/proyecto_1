@@ -1,0 +1,375 @@
+DEBUG - 2025-05-28 09:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 10:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 10:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 10:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 10:56:54 --> Error: Call to undefined function form_open_miltipart()
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 27.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 4 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 10:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 10:57:22 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:04:47 --> ErrorException: Undefined variable $categoria
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:07:57 --> ErrorException: Undefined variable $categoria
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:08:11 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:10:22 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:11:34 --> ErrorException: Undefined variable $categoria
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:22:04 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:25:33 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:26:12 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:26:36 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:36:23 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:45:57 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:47:49 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 11:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 11:58:24 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 12:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 12:03:29 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 12:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 12:12:27 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 12:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 12:32:37 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 12:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 12:32:40 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 12:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 12:42:54 --> ErrorException: Undefined variable $generos
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 67.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $generos', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 12:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 12:44:47 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 95.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 3 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 12:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 14:48:59 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 14:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 20:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 20:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 20:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 20:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 21:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 21:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 21:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 21:32:35 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 21:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 21:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 21:37:59 --> ErrorException: Undefined variable $categorias
+[Method: GET, Route: agregar_productos]
+in APPPATH\Views\carpeta\contenido\agregar_productos.php on line 53.
+ 1 APPPATH\Views\carpeta\contenido\agregar_productos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_1\\app\\Views\\carpeta\\contenido\\agregar_productos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('\\carpeta\\contenido\\agregar_productos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('\\carpeta\\contenido\\agregar_productos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-28 21:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

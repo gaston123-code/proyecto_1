@@ -14,7 +14,7 @@ class Registro_model extends Model
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['nombre_registro', 'apellido_registro', 'correo_registro', 'contrasena_registro', 'estado_registro', 'perfil_registro'];
+    protected $allowedFields = ['nombre_registro', 'apellido_registro', 'correo_registro', 'contrasena_registro', 'estado_registro', 'perfil_registro', 'dni_registro', 'domicilio_registro'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;

@@ -14,7 +14,8 @@ class Consulta_model extends Model
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['nombreApellido_mensaje', 'telefono_mensaje', 'correo_mensaje', 'asunto_mensaje', 'consulta_mensaje'];
+    protected $allowedFields = ['nombreApellido_mensaje', 'correo_mensaje', 'telefono_mensaje', 'asunto_mensaje', 'consulta_mensaje', 'estado_mensaje', 'cliente_id'];
+
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;

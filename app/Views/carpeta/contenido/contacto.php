@@ -1,5 +1,5 @@
 <div class="navbar-expand-lg pt-4">
-<div class="mt-5 p-0">
+<div class="mt-2 p-0">
             <img src="assets/img/contacto.webp" alt="" width="100%">
         </div>
     <section class="container my-5">
@@ -32,7 +32,7 @@
 
             
                 <form class="row g-3 needs-validation position-relative">
-                    <div class="col-md-12 position-relative">
+                    <div class="col-md-6 position-relative">
                         <label for="nombre" class="form-label">Nombre y apellido</label>
                         <?php echo form_input(['name' => 'nombre', 'id' => 'nombre', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'ingrese nombre', 'value' => set_value('nombre')]); ?>
                     </div>
@@ -45,7 +45,7 @@
                         <?php echo form_input(['name' => 'correo', 'id' => 'email', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'ingrese su email', 'value' => set_value('email')]); ?>
                     </div>
                     
-                    <div class="col-md-12 position-relative">
+                    <div class="col-md-6 position-relative">
                         <label for="validationTooltip04" class="form-label">Asunto</label>
                         <?php echo form_input(['name' => 'motivo', 'id' => 'asunto', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'ingrese el asunto', 'value' => set_value('asunto')]); ?>
                     </div>

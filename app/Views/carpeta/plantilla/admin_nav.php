@@ -33,30 +33,35 @@
         <li class="nav-item">
           <a class="nav-link pestañas" href="<?php echo base_url('login');?>"><i class="fa-solid fa-user"></i> USUARIO</a>
         </li>
+      
+        <?php if (session('login')): ?>
+    <?php if (session('perfil') == 1): ?>
+        <!-- Perfil administrador -->
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo base_url('inicio_admin'); ?>">Panel Admin</a>
+        </li>
+    <?php endif; ?>
+    <!-- Común para todos los logueados -->
+    <li class="nav-item">
+        <a class="nav-link" href="#">Hola, <?= session('apellido'); ?></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('logout'); ?>">Salir</a>
+    </li>
+<?php else: ?>
+    <!-- Visitante no logueado -->
+    <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('login'); ?>">Login</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('registro'); ?>">Registrarse</a>
+    </li>
+<?php endif; ?>
+
       </ul>
     </div>
 
-    <?php if (session('login')) {
-      ?>
-      <li class="nav-item">
-          <a class="nav-link pestañas" aria-current="page" href="<?php echo base_url();?>"><i class="fa-solid fa-house"></i> VER CARRITO</a>
-      </li>
 
-      <li class="nav-item">
-          <a class="nav-link pestañas" aria-current="page" href="<?php echo session('apellido');?>"></a>
-      </li>
-
-      <li class="nav-item">
-          <a class="nav-link pestañas" aria-current="page" href="<?php echo base_url('logout');?>">SALIR</a>
-      </li>
-
-      <?php } else { ?>
-      
-        <li class="nav-item">
-          <a class="nav-link pestañas" href="<?php echo base_url('login');?>"><i class="fa-solid fa-user"></i> USUARIO</a>
-        </li>
-
-      <?php } ?>
 
   </div>
 </nav>

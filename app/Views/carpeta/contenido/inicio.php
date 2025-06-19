@@ -1,5 +1,5 @@
 <section class="container-fluid" >
-        <div class="row" style="padding-top: 70px;">
+        <div class="row">
         
           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -138,7 +138,7 @@
   <div class="row row-cols-1 row-cols-md-2 g-4 my-5">
     <div class="col container-c d-flex justify-content-center">
       <div class="card h-100% image-container justify-content-center mb-5">
-        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/h.jpg');?>" class="card-img-top" alt="...">
+        <a href="<?php echo base_url('genero/1');?>" class="text-decoration-none"><img src="<?php echo base_url('assets/img/h.jpg');?>" class="card-img-top" alt="...">
         <div class="card-body mb-3">
           <h5 class="card-title text-center">Seccion Hombre</h5>
         </div>
@@ -148,7 +148,7 @@
     </div>
     <div class="col container-z d-flex justify-content-center">
       <div class="card h-100% image-container justify-content-center mb-5">
-        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/m.jpg');?>" class="card-img-top" alt="...">
+        <a href="<?php echo base_url('genero/2');?>" class="text-decoration-none"><img src="<?php echo base_url('assets/img/m.jpg');?>" class="card-img-top" alt="...">
         <div class="card-body mb-3">
           <h5 class="card-title text-center">Seccion mujer</h5>
         </div>
@@ -167,7 +167,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-3 my-5">
     <div class="col container-c d-flex justify-content-center">
       <div class="card h-100% image-container justify-content-center mb-5">
-        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/3.webp');?>" class="card-img-top" alt="...">
+        <a href="<?php echo base_url('categoria/2');?>" class="text-decoration-none"><img src="<?php echo base_url('assets/img/3.webp');?>" class="card-img-top" alt="...">
         <div class="card-body mb-3">
           <h5 class="card-title text-center">Indumentaria</h5>
         </div>
@@ -177,9 +177,9 @@
     </div>
     <div class="col container-z d-flex justify-content-center">
       <div class="card h-100% image-container justify-content-center mb-5">
-        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/6.webp');?>" class="card-img-top" alt="...">
+        <a href="<?php echo base_url('categoria/1');?>" class="text-decoration-none"><img src="<?php echo base_url('assets/img/6.webp');?>" class="card-img-top" alt="...">
         <div class="card-body mb-3">
-          <h5 class="card-title text-center">Zapatillas</h5>
+          <h5 class="card-title text-center">Calsado</h5>
         </div>
         </a>
         
@@ -187,9 +187,9 @@
     </div>
     <div class="col container-p d-flex justify-content-center">
       <div class="card h-100% image-container justify-content-center mb-5">
-        <a href="#" class="text-decoration-none"><img src="<?php echo base_url('assets/img/7.webp');?>" class="card-img-top" alt="...">
+        <a href="<?php echo base_url('categoria/3');?>" class="text-decoration-none"><img src="<?php echo base_url('assets/img/07.webp');?>" class="card-img-top" alt="...">
         <div class="card-body mb-3">
-          <h5 class="card-title text-center">Pantalones</h5>
+          <h5 class="card-title text-center">Accesorios</h5>
         </div>
         </a>
         

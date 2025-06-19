@@ -16,7 +16,6 @@
                 </div>
             <?php endif ?>
 
-<<<<<<< HEAD
 
             <?php if (session('registro_ok')): ?>
                 <div class="alert alert-success">
@@ -25,13 +24,11 @@
             <?php endif ?>
 
             <?= form_open('registro_usuario') ?>
-=======
              <?php if (session('registro_ok')){
                 echo session('registro_ok');
             }?>
 
             <?php echo form_open('registro_usuario') ?>
->>>>>>> 7bd20555d2de4632df992bd4bde886985b5ca605
 
             <div class="row g-3 needs-validation">
 
@@ -50,6 +47,15 @@
                     <?= form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'email', 'class' => 'form-control', 'required' => true, 'value' => set_value('correo')]) ?>
                 </div>
 
+                 <div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label">DNI</label>
+  <?= form_input(['name' => 'dni', 'id' => 'dni', 'class' => 'form-control', 'required' => true, 'value' => set_value('dni')]) ?>
+</div>
+<div class="mb-3">
+  <label for="formGroupExampleInput2" class="form-label">Domicilio</label>
+  <?= form_input(['name' => 'domicilio', 'id' => 'domicilio', 'class' => 'form-control', 'required' => true, 'value' => set_value('domicilio')]) ?>
+</div>
+
                 <div class="col-md-12">
                     <label for="contrasena" class="form-label">Contraseña</label>
                     <?= form_password(['name' => 'contrasena', 'id' => 'contrasena', 'class' => 'form-control', 'required' => true]) ?>
@@ -65,11 +71,8 @@
                 </div>
             </div>
 
-<<<<<<< HEAD
             <?= form_close() ?>
-=======
             <?php echo form_close() ?>
->>>>>>> 7bd20555d2de4632df992bd4bde886985b5ca605
         </div>
     </div>
 </section>
